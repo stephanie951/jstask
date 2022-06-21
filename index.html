@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>js</title>
+                </head>
+                <body>
+                    <h1>Assignment given by zuri</h1>
+                    <p>Write a javascript code that prints out your name, height, and country on the screen</p>
+                    <h3>My name,height and country are:</h3>
+                    <p id="demo"></p>
+
+                    <script>
+                        let aboutMe = {
+                            Name: "Stephanie",
+                            Height: 1.73,
+                            Country: "Nigeria"
+                        };
+
+                        document.getElementById("demo").innerHTML = aboutMe.Name + ",\n " + aboutMe.Height + ", \n" + aboutMe.Country + ".";
+                    </script>
+                </body>
+            </html>
